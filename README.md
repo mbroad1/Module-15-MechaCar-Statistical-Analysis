@@ -24,3 +24,29 @@ The purpose of this analysis is to figure out the factors that are causing produ
   - For all manufacturing lots in total, the variance of the MechaCar's suspension coils is about **62.3**, which is less than 100 PSI.
   - For manufacturing lots 1 and 2, the variances of the suspension coils were about **1.0** and **7.5**, respectively, and thus both are significantly lesss than 100 PSI.
     - However, lot 3 had a variance of the suspension coils that was about **170.3** PSI, and thus the MechaCars in this lot do **not** meet the design specification of less than 100 PSI.
+
+---
+## T-Tests on Suspension Coils
+### Is the PSI Across All Manufacturing Lots Statistically Different from the Population Mean, 1500 PSI?
+![All_Lots](https://github.com/mbroad1/Module-15-MechaCar-Statistical-Analysis/blob/main/Images/Deliverable_3_AllLots.png)
+- The p-value of this t-test is about **0.06** which means it almost reached statistical significance; however, since it is not less than the 0.05 threshold, we can conclude that the PSI across all manufacturing lots are **not** statistically different from the population mean of 1500 PSI.
+- This result is a positive result because a car manufacturing company would not want their cars to differ significantly from the expected mean.
+  - The fact that the average PSI across all lots is no different from the population mean of 1500 PSI means that there is consistency in the manufacturing of these cars. 
+### Is the PSI for Lot 1 Statistically Different from the Population Mean?
+![Lot_1](https://github.com/mbroad1/Module-15-MechaCar-Statistical-Analysis/blob/main/Images/Deliverable_3_Lot1.png)
+- The p-value of this t-test is **1**; therefore, the PSI of lot 1 is **not** statistically different from the population mean since it is greater than 0.05.
+  - Therefore, the manufacturing process of lot 1 is consistent since the average PSI of the cars in lot 1 do not differ significantly from the expected population mean of 1500 PSI. 
+### Is the PSI for Lot 2 Statistically Different from the Population Mean?
+![Lot_2](https://github.com/mbroad1/Module-15-MechaCar-Statistical-Analysis/blob/main/Images/Deliverable_3_Lot2.png)
+- The p-value of this t-test is about **0.6**; therefore, the PSI of lot 2 is **not** statistically different from the population mean since it is greater than 0.05.
+  - Therefore, the manufacturing process of lot 2 is consistent since the average PSI of the cars in lot 2 do not differ significantly from the expected population mean of 1500 PSI. 
+### Is the PSI for Lot 3 Statistically Different from the Population Mean?
+![Lot_3](https://github.com/mbroad1/Module-15-MechaCar-Statistical-Analysis/blob/main/Images/Deliverable_3_Lot3.png)
+- The p-value of this t-test is about **0.04**; therefore, the PSI of lot 3 **is** statistically different from the population mean since its p-value is less than the 0.05 threshold.
+  - Therefore, the manufacturing process of lot 3 is **not** consistent since the average PSI of the cars in lot 3 differ significantly from the population mean of 1500 PSI.
+  - Due to this significant difference, any potential production changes that occurred in lot 3 that did not occur in lots 1 and 2 should be evaluated to avoid this production mishap in the future.
+  - Likewise, the PSI for each car in lot 3 should be evaluated to see whether there are significant differences in the PSI from car to car in lot 3.
+
+---
+## Study Design: MechaCar vs Competition
+
