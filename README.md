@@ -7,7 +7,7 @@ The purpose of this analysis is to figure out the factors that are causing produ
 ![Deliverable_1](https://github.com/mbroad1/Module-15-MechaCar-Statistical-Analysis/blob/main/Images/Deliverable_1.png)
 
 **- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
-  - The coefficients that provided a non-random amount of variance to the mpg values were the intercept with **5.08e-08**, vehicle length with **2.60e-12**, and ground clearance **5.21e-08**.
+  - The coefficients that provided a non-random amount of variance to the mpg values were the intercept with **5.08e-08**, the vehicle length with **2.60e-12**, and the ground clearance **5.21e-08**.
 
 **- Is the slope of the linear model considered to be zero? Why or why not?**
   - The slope of the linear model is **not** considered to be zero because the p-value is statistically significant, **5.35e-11**, which means the statistical analysis failed to reject the null hypothesis, and thus the slope of this model cannot equal zero.
