@@ -17,4 +17,4 @@ Since the p-value of this analysis is very statistically significant, it means t
 ---
 ## Summary Statistics on Suspension Coils
 ![Deliverable_2_Total_Summary](https://github.com/mbroad1/Module-15-MechaCar-Statistical-Analysis/blob/main/Images/Deliverable_2_Total_Summary.png)
-![Deliverable_2_Lot_Summary()
+![Deliverable_2_Lot_Summary](https://github.com/mbroad1/Module-15-MechaCar-Statistical-Analysis/blob/main/Images/Deliverable_2_Lot_Summary.png)
