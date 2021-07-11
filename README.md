@@ -1,7 +1,7 @@
 # Module 15 Challenge: MechaCar Statistical Analysis
 
 ## Purpose:
-The purpose of this analysis is to figure out the factors that are causing production troubles for a car manufacturing company's (AutosRUs) newest prototype, the MechaCar. In order to figure out these issues, I used the coding language R to perform robust statistical analysis on the company's given data sets for the MechaCar. Additionally, I designed a statistical study to compare vehicle performance of the MechaCar vehicles against vechicles from other manufacturers to evaluate whether the MechaCar was a viable competitor in the car-buying market.
+The purpose of this analysis is to figure out the factors that are causing production troubles for a car manufacturing company's (AutosRUs) newest prototype, the MechaCar. In order to figure out these issues, I used the coding language R to perform robust statistical analysis on the company's given data sets for the MechaCar. Additionally, I designed a statistical study to compare the safety performance of the MechaCar vehicles against vechicles from other manufacturers to evaluate whether the MechaCar was a viable competitor in the car-buying market.
 ---
 ## Linear Regression to Predict MPG
 ![Deliverable_1](https://github.com/mbroad1/Module-15-MechaCar-Statistical-Analysis/blob/main/Images/Deliverable_1.png)
