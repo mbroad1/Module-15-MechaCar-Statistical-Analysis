@@ -4,7 +4,7 @@
 The purpose of this analysis is to figure out the factors that are causing production troubles for a car manufacturing company's (AutosRUs) newest prototype, the MechaCar. In order to figure out these issues, I used the coding language R to perform robust statistical analysis on the company's given data sets for the MechaCar. Additionally, I designed a statistical study to compare vehicle performance of the MechaCar vehicles against vechicles from other manufacturers to evaluate whether the MechaCar was a viable competitor in the car-buying market.
 ---
 ## Linear Regression to Predict MPG
-![Deliverable_1]()
+![Deliverable_1](https://github.com/mbroad1/Module-15-MechaCar-Statistical-Analysis/blob/main/Images/Deliverable_1.png)
 **- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
 The coefficients that provided a non-random amount of variance to the mpg values were the intercept with **5.08e-08**, vehicle length with **2.60e-12**, and ground clearance **5.21e-08**.
 
@@ -15,3 +15,6 @@ The slope of the linear model is **not** considered to be zero because the p-val
 Since the p-value of this analysis is very statistically significant, it means that this linear model is reliable in predicting mpg for the MechaCar prototypes in an effective manner.
 
 ---
+## Summary Statistics on Suspension Coils
+![Deliverable_2_Total_Summary()
+![Deliverable_2_Lot_Summary()
