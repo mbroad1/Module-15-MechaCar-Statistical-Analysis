@@ -5,6 +5,7 @@ The purpose of this analysis is to figure out the factors that are causing produ
 ---
 ## Linear Regression to Predict MPG
 ![Deliverable_1](https://github.com/mbroad1/Module-15-MechaCar-Statistical-Analysis/blob/main/Images/Deliverable_1.png)
+
 **- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
   - The coefficients that provided a non-random amount of variance to the mpg values were the intercept with **5.08e-08**, vehicle length with **2.60e-12**, and ground clearance **5.21e-08**.
 
