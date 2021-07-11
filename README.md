@@ -49,4 +49,12 @@ The purpose of this analysis is to figure out the factors that are causing produ
 
 ---
 ## Study Design: MechaCar vs Competition
+One of the most important (if not, the most important) aspect when purchasing a car is whether the car is safe or not. AutosRUs always aims for customer satisfaction and to ensure that their buyers are receiving the safest car to drive on the road.
+
+In order to determine how MechaCar's safety compares to other competitor's safety, a statistical study can be performed to measure safety as a metric. The **null hypothesis** of this study would be the safety of Mechacar does not differ significantly from the safety of other competitor vehicles. The **alternative hypothesis** of this study would be the safety of Mechacar does differ significantly from the safety of other competitor vehicles.
+
+The safety of the cars can be rated on an ordinal scale where **1 is the least safe** and **5 is extremely safe**. Since safety rating is a categorical variable, the statistical test that would be used for this analysis is a **chi-squared test** since a chi-squared test evaluates whether there is a difference in frequency in a categorical variable among groups.
+
+In order to perform this study, AutosRUs needs to hire an unbiased outside team to evaluate and rate the safety of each MechaCar produced. Likewise, this same unbiased outside team will collect safety rating data from fellow competitors, and if necessary, normalize these safety ratings to the AutosRUs safety rating metric if other vehicle competitors use different metrics to evaluate safety. In order to interpret significant findings from this study, an equal number of cars from each competitor, including AutosRUs, should be evaluated for this study, and ideally, there should be at least 100 or more vehicles from each competitor, including AutosRUs, in order to properly evaluate and have confidence in the study's results as bigger sample sizes will make AutosRUs more confident in interpreting their study's results. Hopefully, the safety rating of MechaCar is significantly different from the safety rating of other competitors (in the sense that it rates higher in safety than other cars) so that AutosRUs can advertise that their MechaCar is statistically the safest car in the market.
+
 
